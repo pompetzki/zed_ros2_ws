@@ -1,0 +1,26 @@
+name: zed_ros2_env
+channels:
+  - robostack-jazzy
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - cmake
+  - ros-jazzy-desktop
+  - ros-jazzy-nmea-msgs
+  - ros-jazzy-geographic-msgs
+  - ros-jazzy-nav-msgs
+  - ros-jazzy-tf2-geometry-msgs
+  - ros-jazzy-xacro
+  - ros-jazzy-geometry-msgs
+  - ros-jazzy-tf2-ros
+  - ros-jazzy-sensor-msgs
+  - ros-jazzy-diagnostic-updater
+  - ros-jazzy-diagnostic-msgs
+  - ros-jazzy-interactive-markers
+  - ros-jazzy-robot-localization
+  - ros-jazzy-stereo-msgs
+  - ros-jazzy-backward-ros
+  - pip
+  - pip:
+      - pyzed==5.2
