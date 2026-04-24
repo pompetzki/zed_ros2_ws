@@ -3,6 +3,7 @@
 # 1. Setup Variables
 BUILD_MODE="FALSE"
 VERBOSE="FALSE"
+CAMERA_MODEL="zed2i"
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 WORKING_DIR="$SCRIPT_DIR"
