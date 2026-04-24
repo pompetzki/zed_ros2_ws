@@ -7,7 +7,7 @@ VERBOSE="FALSE"
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 WORKING_DIR="$SCRIPT_DIR"
 
-CONDA_ROBROS_ENV=$(basename "$WORKING_DIR")
+CONDA_ROBROS_ENV="zed_ros2_env"
 CONDA_BASE=$(conda info --base 2>/dev/null || echo "$HOME/anaconda3")
 CONDA_INIT_PATH="$CONDA_BASE/etc/profile.d/conda.sh"
 
